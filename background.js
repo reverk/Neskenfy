@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var chance = Math.floor(Math.random() * 100);
-    if (true) {
+    if (chance >= 0 && chance <= 50) { // 50% chance to pop up
         neskenfy();
     }
 });
@@ -21,7 +21,7 @@ var generateHTML = function () {
                             margin-right: auto;
                             width: 700px;'
                 >
-                    <img src='https://raw.githubusercontent.com/reverk/Neskenfy/master/nesken.gif?token=AMEET3ZGSJLN46TX2QOB7HC7JXVTG' 
+                    <img src='https://raw.githubusercontent.com/reverk/Neskenfy/master/nesken.gif' 
                         alt='temp' 
                         width='100%' 
                         height='100%'>
@@ -33,8 +33,8 @@ var generateHTML = function () {
 };
 
 var neskenfy = function () {
-    setTimeout(function () { // Wait 5 seconds before cenafying
-        var audio = new Audio('https://raw.githubusercontent.com/Roystbeef/Cenafy/master/john_cena.mp3')
+    setTimeout(function () { // Wait 3 seconds before cenafying
+        var audio = new Audio('https://raw.githubusercontent.com/reverk/Neskenfy/master/nesken_sound.mp3')
         var html = generateHTML();
         audio.play();
         $('body').html(html);
@@ -42,5 +42,5 @@ var neskenfy = function () {
         setTimeout(function () { // Wait 5 seconds for nesken to finish
             window.location.replace(document.URL);
         }, 5000);
-    }, 5000);
+    }, 3000);
 };
