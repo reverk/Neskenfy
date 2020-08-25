@@ -1,0 +1,19 @@
+{
+  "name": "Neskenfy",
+  "version": "1.0.0",
+  "description": "A fork of Cenafy - Now to my fellow classmate",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-1.11.1.min.js", "background.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
