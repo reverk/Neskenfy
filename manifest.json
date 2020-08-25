@@ -1,7 +1,7 @@
 {
   "name": "Neskenfy",
   "version": "1.0.0",
-  "description": "A fork of Cenafy - Now to my fellow classmate",
+  "description": "An extension that pops Nesken out at 10% chance",
 
   "content_scripts": [
     {
