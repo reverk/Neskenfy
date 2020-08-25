@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var chance = Math.floor(Math.random() * 100);
-    if (chance >= 0 && chance <= 50) { // 50% chance to pop up
+    if (chance >= 0 && chance <= 10) { // 10% chance to pop up
         neskenfy();
     }
 });
