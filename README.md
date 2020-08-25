@@ -2,7 +2,9 @@
 
 
 
-A chrome extension has a 10% chance of appearing Nesken's face 
+A chrome extension has a 10% chance of appearing Nesken's face
+
+This is created just for fun because it's his birthday 🤷🏻‍♂️
 
 Also a fork of Cenafy
 
