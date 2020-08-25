@@ -1,8 +1,10 @@
 # Neskenfy
 
-A fork of Cenafy - Now based on my coursemate
 
-This extension has a 50% chance of appearing Nesken's face 
+
+A chrome extension has a 10% chance of appearing Nesken's face 
+
+Also a fork of Cenafy
 
 ## Installation
 1. Download the code in ZIP and extract it
